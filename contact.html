@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact iHub Africa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-row">
+      <a href="index.html#top" class="brand">
+        <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+          <circle cx="32" cy="32" r="32" fill="var(--gold)"/>
+          <circle cx="24" cy="20" r="5" fill="var(--bg)"/>
+          <rect x="20" y="30" width="8" height="20" fill="var(--bg)"/>
+          <rect x="20" y="36" width="22" height="7" fill="var(--bg)"/>
+          <rect x="34" y="18" width="8" height="32" fill="var(--bg)"/>
+        </svg>
+        <span class="brand-name">iHub Africa</span>
+      </a>
+      <nav class="nav-links">
+        <a href="about.html">About</a>
+        <a href="index.html#programme">Programme</a>
+        <a href="index.html#journey">How it works</a>
+        <a href="index.html#alumni">Alumni</a>
+        <a href="index.html#involved">Get involved</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" style="padding-top: 160px; padding-bottom: 72px;">
+      <div class="container">
+        <span class="eyebrow">Contact</span>
+        <h1>We’re here to help you connect with iHub Africa.</h1>
+        <p class="lede">Questions about the programme, partnerships, or how to support our mission? Send us a message and we’ll respond as soon as possible.</p>
+      </div>
+    </section>
+
+    <section class="container">
+      <form class="contact-form" data-validate>
+        <div class="form-group">
+          <label for="contact-name">Full Name *</label>
+          <input type="text" id="contact-name" name="name" required placeholder="Your name">
+        </div>
+
+        <div class="form-group">
+          <label for="contact-email">Email Address *</label>
+          <input type="email" id="contact-email" name="email" required placeholder="you@example.com">
+        </div>
+
+        <div class="form-group">
+          <label for="contact-phone">Phone Number</label>
+          <input type="tel" id="contact-phone" name="phone" placeholder="+27 ...">
+        </div>
+
+        <div class="form-group">
+          <label for="contact-subject">Subject *</label>
+          <input type="text" id="contact-subject" name="subject" required placeholder="What do you want to discuss?">
+        </div>
+
+        <div class="form-group">
+          <label for="contact-message">Message *</label>
+          <textarea id="contact-message" name="message" required placeholder="Write your message here..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary form-submit">Send message</button>
+        <div class="form-success-message">✓ Thanks for reaching out! We'll get back to you soon.</div>
+      </form>
+
+      <div class="about-details" style="margin-top: 48px;">
+        <h3>Contact details</h3>
+        <p style="color: var(--text-dim);">Phone: <a href="tel:+27686152527">+27 068 615 2527</a></p>
+        <p style="color: var(--text-dim);">Email: <a href="mailto:info@ihub.africa">info@ihub.africa</a></p>
+        <p style="color: var(--text-dim);">Location: 7 Quince Street, The Media Mill, Braamfontein Werf, Johannesburg</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" style="padding-top: 36px; padding-bottom: 32px;">
+    <div class="container">
+      <div class="footer-bottom" style="display:flex; justify-content:space-between; flex-wrap:wrap; gap:16px;">
+        <span>© 2026 iHub Africa. All rights reserved.</span>
+        <span>A programme of Hillsong Africa Foundation.</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
